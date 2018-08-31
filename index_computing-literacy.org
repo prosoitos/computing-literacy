@@ -1,0 +1,31 @@
+#+OPTIONS: title:t date:t author:t email:t
+#+OPTIONS: toc:t h:6 num:nil |:t todo:nil
+#+OPTIONS: *:t -:t ::t <:t \n:t e:t creator:nil
+#+OPTIONS: f:t inline:t tasks:t tex:t timestamp:t
+#+OPTIONS: html-preamble:t html-postamble:nil
+
+#+TITLE:   Computing literacy resources
+#+DATE:	  {{{time(%B %d\, %Y)}}}
+#+AUTHOR:  Marie-Hélène Burle
+#+CREATOR: Simon Fraser University, Research Commons
+#+EMAIL:   msb2@sfu.ca
+
+* Open source
+
+[[][Open source vs proprietary software]
+
+* R
+
+[[https://prosoitos.github.io/r_resources/looking_for_help_with_R][Getting help with R]]
+
+[[https://prosoitos.github.io/r_resources/r_resources][Great R resources]]
+
+[[https://prosoitos.github.io/r_resources/better_practices_in_r][Better practices in R]]
+
+[[https://prosoitos.github.io/r_resources/functional-programming_with-answers][Functional programming]]
+
+[[https://prosoitos.github.io/r_resources/pipes][Pipes]]
+
+* Git
+
+[[https://prosoitos.github.io/git_workshop/workshop_intro_git.html][Getting started with Git]]
