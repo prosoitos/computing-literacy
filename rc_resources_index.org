@@ -16,16 +16,16 @@
 
 * R
 
-[[https://prosoitos.github.io/r_resources/looking_for_help_with_R][Getting help with R]]
+[[https://prosoitos.github.io/rc_resources_r/getting_help][Getting help]]
 
-[[https://prosoitos.github.io/r_resources/r_resources][Great R resources]]
+[[https://prosoitos.github.io/rc_resources_r/list_resources][Great resources]]
 
-[[https://prosoitos.github.io/r_resources/better_practices_in_r][Better practices in R]]
+[[https://prosoitos.github.io/rc_resources_r/better_practices][Better practices]]
 
-[[https://prosoitos.github.io/r_resources/functional-programming_with-answers][Functional programming]]
+[[https://prosoitos.github.io/rc_resources_r/functional-programming_with-answers][Functional programming]]
 
-[[https://prosoitos.github.io/r_resources/pipes][Pipes]]
+[[https://prosoitos.github.io/rc_resources_r/pipes][Pipes]]
 
 * Git
 
-[[https://prosoitos.github.io/git_workshop/workshop_intro_git.html][Getting started with Git]]
+[[https://prosoitos.github.io/rc_resources_git/getting_started][Getting started]]
