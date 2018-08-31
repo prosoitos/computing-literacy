@@ -12,7 +12,7 @@
 
 * Open source
 
-[[][Open source vs proprietary software]
+[[https://prosoitos.github.io/rc_resources_open-source/open-source_vs_proprietary][Open source vs proprietary software]]
 
 * R
 
