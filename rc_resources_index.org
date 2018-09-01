@@ -12,20 +12,20 @@
 
 * Open source
 
-[[https://prosoitos.github.io/rc_resources_open-source/open-source_vs_proprietary][Open source vs proprietary software]]
+[[https://prosoitos.github.io/open-source_rc_resources/open-source_vs_proprietary][Open source vs proprietary software]]
 
 * R
 
-[[https://prosoitos.github.io/rc_resources_r/getting_help][Getting help]]
+[[https://prosoitos.github.io/r_rc_resources/getting_help][Getting help]]
 
-[[https://prosoitos.github.io/rc_resources_r/list_resources][Great resources]]
+[[https://prosoitos.github.io/r_rc_resources/list_resources][Great resources]]
 
-[[https://prosoitos.github.io/rc_resources_r/better_practices][Better practices]]
+[[https://prosoitos.github.io/r_rc_resources/better_practices][Better practices]]
 
-[[https://prosoitos.github.io/rc_resources_r/functional-programming_with-answers][Functional programming]]
+[[https://prosoitos.github.io/r_rc_resources/functional-programming_with-answers][Functional programming]]
 
-[[https://prosoitos.github.io/rc_resources_r/pipes][Pipes]]
+[[https://prosoitos.github.io/r_rc_resources/pipes][Pipes]]
 
 * Git
 
-[[https://prosoitos.github.io/rc_resources_git/getting_started][Getting started]]
+[[https://prosoitos.github.io/git_rc_resources/getting_started][Getting started]]
