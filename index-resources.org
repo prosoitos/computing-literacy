@@ -4,7 +4,7 @@
 #+OPTIONS: f:t inline:t tasks:t tex:t timestamp:t
 #+OPTIONS: html-preamble:t html-postamble:nil
 
-#+TITLE:   Computing literacy resources
+#+TITLE:   Resources for Computing Literacy and Open Source
 #+DATE:	  {{{time(%B %d\, %Y)}}}
 #+AUTHOR:  Marie-Hélène Burle
 #+CREATOR: Simon Fraser University, Research Commons
