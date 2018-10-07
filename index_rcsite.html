@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-09-19 Wed 17:52 -->
+<!-- 2018-10-06 Sat 17:21 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Resources for Computing Literacy and Open Source</title>
+<title><span style="font-size:23px">Research Commons online resources for:</span><br><span style="font-size:33px">Computing Literacy &amp; Open Source</span></title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Marie-Hélène Burle" />
 <style type="text/css">
@@ -258,30 +258,10 @@
   h6 {
     color: #808080;
   }
-  pre[class="src src-R"] {	/*for blocks src R*/
-    background-color: #f1f1f1;
-    color: #262626;
-    padding: 0.8em;
-    font-size: 95%;
-    line-height: 22px;
-    border: 0.5pt solid #d9d9d9;
-    border-radius: 5px;
-    box-shadow: 0pt 0pt 0pt #eee8d5;
-  }
-  pre[class="src src-sh"] {	/*for blocks src sh*/
-    background-color: #f1f1f1;
-    color: #262626;
-    padding: 0.8em;
-    font-size: 95%;
-    line-height: 22px;
-    border: 0.5pt solid #d9d9d9;
-    border-radius: 5px;
-    box-shadow: 0pt 0pt 0pt #eee8d5;
-  }
-  .accordion {			/*for the button of the box that can hide/appear*/
+  .accordion {			/*button of the accordeon box*/
     background-color: #c2d6d6;
     color: #262626;
-    padding: 0 0.8em;
+    padding: 0em 0.8em;
     font-size: 95%;
     line-height: 22px;
     border: 0.5pt solid #b3cccc;
@@ -291,12 +271,12 @@
     cursor: pointer;
     outline: none;
   }
-  .active, .accordion:hover {	/*for the button of the box while hover*/
+  .active, .accordion:hover {	/*button of the accordeon box while hover*/
     background-color: #94b8b8;
     border: 0.5pt solid #85adad;
     /* color: white; */
   }
-  .panel {			/*for the box that can hide/appear*/
+  .panel {			/*accordeon box*/
     padding: 0em 1em;
     margin: 0.7em 0 0 0;
     background-color: #c2d6d6;
@@ -306,17 +286,17 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
-  code {			/*for inline code*/
+  code {			/*inline code*/
     background-color: #f1f1f1;
     color: #262626;
-    padding: 0em 0.2em 0em 0.2em;
+    padding: 0em 0.2em;
     font-size: 95%;
     line-height: 22px;
     border: 0.5pt solid #e6e6e6;
     border-radius: 3px;
     box-shadow: 0pt 0pt 0pt #eee8d5;
   }
-  blockquote {			/*for block quote*/
+  blockquote {			/*quote*/
     /* font: 14px/22px normal helvetica, sans-serif; /\*original line*\/ */
     line-height: 22px;
     font-style: italic;
@@ -324,57 +304,107 @@
     padding-left: 15px;
     border-left: 3px solid #ccc;
   }
-  pre[class="example"] {	/*for block example*/
+  pre[class="src src-R"] {	/*src r*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="src src-sh"] {	/*src sh*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="src src-tex"] {	/*src latex*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="src src-html"] {	/*src html*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="example"] {	/*mono font framed by subtle gray border*/
+    padding: 0.4em 0.8em;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  div[class="definition"] {	/*small font in dull gray box*/
     background-color: #f0efe7;
-    font-family: 'Rokkitt';
+    font-family: 'rokkitt';
     width: max-content;
     color: #3e3e3e;
-    padding: 0.6em 0.8em 0.6em 0.8em;
+    /* padding: 0.6em 0.8em 0.6em 0.8em; */
+    padding: 0em 0.8em;
     /* font-size: 95%; */
     line-height: 22px;
     border: 0.5pt solid #ebeae0;
     border-radius: 5px;
     box-shadow: 0pt 0pts 0pt #eee8d5;
   }
-  p[class="verse"] {		/*for block verse*/
+  p[class="verse"] {		/*verse*/
     color: #262626;
-    font-family: 'IM Fell English';
+    font-family: 'im fell english';
     font-size: 110%;
     font-style: italic;
-    /* margin-left: 30px;		/\*keep this line to have the verses indented*\/ */
+    margin-left: 30px;		/*keep this line to have the verses indented*/
     line-height: 25px;
   }
-  div[class="org-center"] {	/*for block center*/
+  div[class="org-center"] {	/*center*/
     margin: auto;
     line-height: 22px;
     width: max-content;
   }
-  div[class="right"] {	/*for block right-aligned*/
+  div[class="right"] {	/*right-aligned*/
     text-align: right;
     line-height: 22px;
   }
-  div[class="HAND"] {		/*for block with handwriting font*/
-    font-family: 'Montez';
+  div[class="handwriting"] {		/*handwriting font*/
+    font-family: 'montez';
     line-height: 26px;
     font-size: 130%;
   }
-  div[class="MONO"] {	/*for block with monospace font*/
-    /* font-family: 'Anonymous Pro'; */
-    font-family: 'Roboto Slab Thin';
+  div[class="monofont"] {	/*monospace font*/
     margin: auto;
     width: max-content;
+    /* font-family: 'anonymous pro'; */
+    font-family: 'Slabo';
+    width: max-content;
     color: #000000;
-    padding: 0.3 0.8em 0.3 0.8em;
+    /* padding: 0.3 0.8em 0.3 0.8em; */
+    padding: 0em 0.8em;
     font-size: 95%;
     line-height: 20px;
     /* margin: 0 0 0 5px; */
-    /* border: 0.5pt solid #d9d9d9; */
-    /* border-radius: 5px; */
+    border: 0.5pt solid #999999;
+    border-radius: 5px;
     /* font-size: 95%; */
   }
-  div[class="RED"] {	/*for block with monospace font*/
-    /* font-family: 'Anonymous Pro'; */
-    /* font-family: 'Roboto Slab Thin'; */
+  div[class="red"] {	/*with monospace font*/
+    /* font-family: 'anonymous pro'; */
+    /* font-family: 'roboto slab thin'; */
     /* margin: auto; */
     /* width: max-content; */
     /* color: #a52a2a; */
@@ -397,17 +427,17 @@
     /* transition: max-height 0.2s ease-out; */
     /* background-color: #f1f1f1; */
     color: #262626;
-    /* padding: 0.8em; */
+    /* padding: 0.4em 0.8em; */
     font-size: 92%;
     /* line-height: 22px; */
     /* border: 0.5pt solid #d9d9d9; */
     border-radius: 5px;
     box-shadow: 0pt 0pt 0pt #eee8d5;
   }
-  div[class="VERBATIM"] {	/*for block verbatim*/
+  div[class="vertbar"] {	/*vertical-bar and big margin for questions or emphasis*/
     /* background-color: #f4faff; */
     line-height: 27px;
-    font-family: 'Linden Hill';
+    font-family: 'linden hill';
     /* font-weight: bold; */
     margin: 45px 50px 45px 100px;
     /* padding-left: 10px; */
@@ -416,174 +446,176 @@
     color: #303b52;
     padding: 0 0 0 15px;
     border-left: 0.5px solid #425170;
-    width: max-content;
-  }
-  div[class="EMPHASIS"] {	/*for block verbatim*/
-    line-height: 27px;
-    /* font-weight: bold; */
-    margin: 45px 0px 45px 150px;
-    /* padding-left: 10px; */
-    /* border-left: 3px solid #890c0c; */
-    font-size: 135%;
-    color: #7c6262;
-  }
-  .org-ess-numbers {
-    color: #e28200; 
-  }
-  .org-comment-delimiter {
-    color: #8c8c8c;
-  }
-  .org-comment {
-    color: #8c8c8c;
-  }
-  .org-string {
-    color: #013b6d;
-  }
-  .org-ess-function-call {
-    color: #bf4040;
-    /* font-weight: bolder; */
-  }
-  .org-ess-operator {
-    color: #0b5e56;
-  }
-  .org-ess-assignment {
-    color: #0b5e56;
-  }
-  .org-ess-paren {
-    color: #0b5e56;
-  }
-  .org-ess-XopX {
-    color: #0b5e56;
-  }  
-  h1 {
-    font-size: 2.2em;
-    text-align: center;
-  }
-  h2 {
-    font-size: 1.6em;
-  }
-  h3 {
-    font-size: 1.5em;
-  }
-  h4 {
-    font-size: 1.4em;
-  }
-  h5 {
-    font-size: 1.3em;
-  }
-  h6 {
-    font-size: 1.2em;
-  }
-  .tag {
-    background-color: #eee8d5;
-    color: #d33682;
-    padding: 0 0.2em;
-  }
-  .todo,
-  .next,
-  .done {
-    color: #faf9f1;
-    background-color: #dc322f;
-    padding: 0 0.2em;
-  }
-  .tag {
-    -webkit-border-radius: 0.35em;
-    -moz-border-radius: 0.35em;
-    border-radius: 0.35em;
-  }
-  .TODO {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #2aa198;
-  }
-  .NEXT {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #268bd2;
-  }
-  .ACTIVE {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #268bd2;
-  }
-  .DONE {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #859900;
-  }
-  .WAITING {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #cb4b16;
-  }
-  .HOLD {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #d33682;
-  }
-  .NOTE {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #d33682;
-  }
-  .CANCELLED {
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    border-radius: 0.2em;
-    background-color: #859900;
-  }
+    width: max-content;    
+  }    
+    div[class="emphasis"] {
+      line-height: 27px;
+      font-family: 'Montserrat';
+      /* font-weight: bold; */
+      margin: 30px 0px 45px 100px;
+      /* padding-left: 10px; */
+      /* border-left: 3px solid #890c0c; */
+      /* font-size: 135%; */
+      /* color: #8f7070; */
+      color: #911808;
+    }
+    .org-ess-numbers {
+      color: #e28200; 
+    }
+    .org-comment-delimiter {
+      color: #8c8c8c;
+    }
+    .org-comment {
+      color: #8c8c8c;
+    }
+    .org-string {
+      color: #013b6d;
+    }
+    .org-ess-function-call {
+      color: #bf4040;
+      /* font-weight: bolder; */
+    }
+    .org-ess-operator {
+      color: #0b5e56;
+    }
+    .org-ess-assignment {
+      color: #0b5e56;
+    }
+    .org-ess-paren {
+      color: #0b5e56;
+    }
+    .org-ess-XopX {
+      color: #0b5e56;
+    }  
+    h1 {
+      font-size: 2.2em;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.6em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.4em;
+    }
+    h5 {
+      font-size: 1.3em;
+    }
+    h6 {
+      font-size: 1.2em;
+    }
+    .tag {
+      background-color: #eee8d5;
+      color: #d33682;
+      padding: 0 0.2em;
+    }
+    .todo,
+    .next,
+    .done {
+      color: #faf9f1;
+      background-color: #dc322f;
+      padding: 0 0.2em;
+    }
+    .tag {
+      -webkit-border-radius: 0.35em;
+      -moz-border-radius: 0.35em;
+      border-radius: 0.35em;
+    }
+    .TODO {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #2aa198;
+    }
+    .NEXT {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #268bd2;
+    }
+    .ACTIVE {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #268bd2;
+    }
+    .DONE {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #859900;
+    }
+    .WAITING {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #cb4b16;
+    }
+    .HOLD {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #d33682;
+    }
+    .NOTE {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #d33682;
+    }
+    .CANCELLED {
+      -webkit-border-radius: 0.2em;
+      -moz-border-radius: 0.2em;
+      border-radius: 0.2em;
+      background-color: #859900;
+    }
 
-  /* TOC inspired by http://jashkenas.github.com/coffee-script */
-  #table-of-contents {
-    font-size: 10pt;
-    position: fixed;
-    right: 0em;
-    top: 0em;
-    background: #faf9f1;
-    color: #596a73;
-    /* -webkit-box-shadow: 0 0 1em #777777; */
-    /* -moz-box-shadow: 0 0 1em #777777; */
-    /* -webkit-border-bottom-left-radius: 10px; */
-    /* -moz-border-radius-bottomleft: 10px; */
-    text-align: right;
-    /* ensure doesn't flow off the screen when expanded */
-    max-height: 80%;
-    overflow: auto;
-  }
-  #table-of-contents h2 {
-    font-size: 12pt;
-    max-width: 25em;
-    font-weight: bold;
-    color: #596a73;
-    padding-right: 3em;
-    padding-left: 0.8em;
-    padding-top: 1em;
-    padding-bottom: 0em;
-    text-align: left;
-  }
-  #table-of-contents #text-table-of-contents {
-    display: none;
-    text-align: left;
-  }
-  #table-of-contents:hover #text-table-of-contents {
-    display: block;
-    padding: 0.5em;
-    margin-top: -1.5em;
-  }
+    /* TOC inspired by http://jashkenas.github.com/coffee-script */
+    #table-of-contents {
+      font-size: 10pt;
+      position: fixed;
+      right: 0em;
+      top: 0em;
+      background: #faf9f1;
+      color: #336699;
+      /* -webkit-box-shadow: 0 0 1em #777777; */
+      /* -moz-box-shadow: 0 0 1em #777777; */
+      /* -webkit-border-bottom-left-radius: 10px; */
+      /* -moz-border-radius-bottomleft: 10px; */
+      text-align: right;
+      /* ensure doesn't flow off the screen when expanded */
+      max-height: 100%;
+      overflow: auto;
+    }
+    #table-of-contents h2 {
+      font-size: 12pt;
+      max-width: 25em;
+      font-weight: bold;
+      color: #336699;
+      padding-right: 3em;
+      padding-left: 0.8em;
+      padding-top: 1em;
+      padding-bottom: 0em;
+      text-align: left;
+    }
+    #table-of-contents #text-table-of-contents {
+      display: none;
+      text-align: left;
+    }
+    #table-of-contents:hover #text-table-of-contents {
+      display: block;
+      padding: 0em;
+      margin-top: -1.5em;
+    }
 
-  .rss_box {}
-  .rss_title, rss_title a {}
-  .rss_items {}
-  .rss_item a:link, .rss_item a:visited, .rss_item a:active {}
-  .rss_item a:hover {}
-  .rss_date {}
+    .rss_box {}
+    .rss_title, rss_title a {}
+    .rss_items {}
+    .rss_item a:link, .rss_item a:visited, .rss_item a:active {}
+    .rss_item a:hover {}
+    .rss_date {}
 
 } /* END OF @media all */
 
@@ -593,7 +625,7 @@
   #table-of-contents {
     float: right;
     border: 0px solid #CCC;
-    max-width: 25%;
+    max-width: 40%;
     overflow: auto;
   }
 } /* END OF @media screen */
@@ -648,46 +680,24 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="preamble" class="status">
-<span style="color:#596a73; font-size:17px"><b>Marie-Hélène Burle</b></span><br><span style="color:#8a8a8a; font-size:15px"><b>Simon Fraser University, Research Commons</b></span><br><span style="color:#596a73; font-size:15px"><img src="./favicons/email.ico" alt="email" height="16" width="16"> <a href="mailto:msb2@sfu.ca">msb2@sfu.ca</a>&nbsp;&nbsp;<img src="./favicons/twitter.ico" alt="twitter" height="17" width="17"> <a href="https://twitter.com/MHBurle">@MHBurle</a>&nbsp;&nbsp;<img src="./favicons/gh.ico" alt="github" height="15" width="15"> <a href="https://github.com/prosoitos">prosoitos</a></span><br><span style="color:#596a73; font-size:16px">September 19, 2018</span>
+
+<span style="color:#596a73;font-size:17px"><b>Marie-Hélène Burle</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#596a73; font-size:17px"><b><img src="./favicons/rc.png" height="18" width="18"> SFU Research Commons</b></span><br><span style="color:#596a73;font-size:14px"><img src="./favicons/email.ico" alt="email" height="15" width="15"> <a href="mailto:msb2@sfu.ca">msb2@sfu.ca</a><br><img src="./favicons/twitter.ico" alt="twitter" height="16" width="16"><a href="https://twitter.com/MHBurle"> MHBurle</a><br><img src="./favicons/gh.ico" alt="github" height="14" width="14"><a href="https://github.com/prosoitos"> prosoitos</a></span>
 </div>
 <div id="content">
-<h1 class="title">Resources for Computing Literacy and Open Source</h1>
+<h1 class="title"><span style="font-size:23px">Research Commons online resources for:</span><br><span style="font-size:33px">Computing Literacy &amp; Open Source</span></h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org463a37f">Open source</a></li>
-<li><a href="#orgde74cde">R</a></li>
-<li><a href="#org8d6a992">Git</a></li>
-<li><a href="#orgdb95653">Emacs</a>
-<ul>
-<li><a href="#orgc1bd24e">Org-mode</a></li>
-<li><a href="#orge814e8c">Undo-tree</a></li>
-<li><a href="#orgb4e3caf">Magit</a></li>
-</ul>
-</li>
-<li><a href="#org39d93e1">Linux</a>
-<ul>
-<li><a href="#orgaeb2610">Arch linux</a></li>
-<li><a href="#org0035071">Tools</a></li>
-</ul>
-</li>
+<li><a href="#orgc495ba3">R</a></li>
+<li><a href="#orgac5f87f">Git</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org463a37f" class="outline-2">
-<h2 id="org463a37f">Open source</h2>
-<div class="outline-text-2" id="text-org463a37f">
-<p>
-<a href="https://prosoitos.github.io/open-source_resources/open-source_vs_proprietary">Open source vs proprietary software</a><br />
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgde74cde" class="outline-2">
-<h2 id="orgde74cde">R</h2>
-<div class="outline-text-2" id="text-orgde74cde">
+<div id="outline-container-orgc495ba3" class="outline-2">
+<h2 id="orgc495ba3">R</h2>
+<div class="outline-text-2" id="text-orgc495ba3">
 <p>
 <a href="https://prosoitos.github.io/r_resources/getting_help">Getting help</a><br />
 </p>
@@ -710,44 +720,17 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org8d6a992" class="outline-2">
-<h2 id="org8d6a992">Git</h2>
-<div class="outline-text-2" id="text-org8d6a992">
+<div id="outline-container-orgac5f87f" class="outline-2">
+<h2 id="orgac5f87f">Git</h2>
+<div class="outline-text-2" id="text-orgac5f87f">
 <p>
 <a href="https://prosoitos.github.io/git_resources/getting_started">Getting started</a><br />
 </p>
 </div>
 </div>
-
-<div id="outline-container-orgdb95653" class="outline-2">
-<h2 id="orgdb95653">Emacs</h2>
-<div class="outline-text-2" id="text-orgdb95653">
 </div>
-<div id="outline-container-orgc1bd24e" class="outline-3">
-<h3 id="orgc1bd24e">Org-mode</h3>
-</div>
-
-<div id="outline-container-orge814e8c" class="outline-3">
-<h3 id="orge814e8c">Undo-tree</h3>
-</div>
-
-<div id="outline-container-orgb4e3caf" class="outline-3">
-<h3 id="orgb4e3caf">Magit</h3>
-</div>
-</div>
-
-<div id="outline-container-org39d93e1" class="outline-2">
-<h2 id="org39d93e1">Linux</h2>
-<div class="outline-text-2" id="text-org39d93e1">
-</div>
-<div id="outline-container-orgaeb2610" class="outline-3">
-<h3 id="orgaeb2610">Arch linux</h3>
-</div>
-
-<div id="outline-container-org0035071" class="outline-3">
-<h3 id="org0035071">Tools</h3>
-</div>
-</div>
+<div id="postamble" class="status">
+<br><span style="color:#596a73;font-size:14px"><div align="right">Last updated: October 06, 2018</div></span>
 </div>
 </body>
 </html>

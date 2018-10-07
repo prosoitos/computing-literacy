@@ -2,17 +2,13 @@
 #+OPTIONS: toc:t h:6 num:nil |:t todo:nil
 #+OPTIONS: *:t -:t ::t <:t \n:t e:t creator:nil
 #+OPTIONS: f:t inline:t tasks:t tex:t timestamp:t
-#+OPTIONS: html-preamble:t html-postamble:nil
+#+OPTIONS: html-preamble:t html-postamble:t
 
-#+TITLE:   Resources for Computing Literacy and Open Source
+#+TITLE:   @@html:<span style="font-size:23px">@@Research Commons online resources for:@@html:</span><br>@@@@html:<span style="font-size:33px">@@Computing Literacy & Open Source@@html:</span>@@
 #+DATE:	  {{{time(%B %d\, %Y)}}}
 #+AUTHOR:  Marie-Hélène Burle
-#+CREATOR: Simon Fraser University, Research Commons
+#+CREATOR: <img src="./favicons/rc.png" height="18" width="18"> SFU Research Commons
 #+EMAIL:   msb2@sfu.ca
-
-* Open source
-
-[[https://prosoitos.github.io/open-source_resources/open-source_vs_proprietary][Open source vs proprietary software]]
 
 * R
 
@@ -26,20 +22,24 @@
 
 [[https://prosoitos.github.io/r_resources/pipes][Pipes]]
 
+# * Open source
+
+# [[https://prosoitos.github.io/open-source_resources/open-source_vs_proprietary][Open source vs proprietary software]]
+
 * Git
 
 [[https://prosoitos.github.io/git_resources/getting_started][Getting started]]
 
-* Emacs
+# * Emacs
 
-** Org-mode
+# ** Org-mode
 
-** Undo-tree
+# ** Undo-tree
 
-** Magit
+# ** Magit
 
-* Linux
+# * Linux
 
-** Arch linux
+# ** Arch linux
 
-** Tools
+# ** Tools
