@@ -7,8 +7,8 @@
 #+TITLE:   @@html:<span style="font-size:23px">@@Research Commons online resources for:@@html:</span><br>@@@@html:<span style="font-size:33px">@@Computing Literacy & Open Source@@html:</span>@@
 #+DATE:	  {{{time(%B %d\, %Y)}}}
 #+AUTHOR:  Marie-Hélène Burle
-#+CREATOR: <img src="./favicons/rc.png" height="18" width="18"> SFU Research Commons
 #+EMAIL:   msb2@sfu.ca
+#+CREATOR: <img src="./favicons/rc.png" height="18" width="18"> SFU Research Commons
 
 * R
 
