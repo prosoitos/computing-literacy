@@ -12,9 +12,9 @@
 
 * R
 
-[[https://prosoitos.github.io/r_resources/getting_help][Getting help]]
-
 [[https://prosoitos.github.io/r_resources/list_resources][Key resources]]
+
+[[https://prosoitos.github.io/r_resources/getting_help][Getting help]]
 
 [[https://prosoitos.github.io/r_resources/better_practices][Better practices]]
 
