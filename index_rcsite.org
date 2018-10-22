@@ -4,11 +4,10 @@
 #+OPTIONS: f:t inline:t tasks:t tex:t timestamp:t
 #+OPTIONS: html-preamble:t html-postamble:t
 
-#+TITLE:   @@html:<span style="font-size:23px">@@Research Commons online resources for:@@html:</span><br>@@@@html:<span style="font-size:33px">@@Computing Literacy & Open Source@@html:</span>@@
+#+TITLE:   @@html:<span style="font-size:33px">@@Computing Literacy & Open Source@@html:</span>@@
 #+DATE:	  {{{time(%B %d\, %Y)}}}
 #+AUTHOR:  Marie-Hélène Burle
 #+EMAIL:   msb2@sfu.ca
-#+CREATOR: <img src="./favicons/rc_no_bg.png" height="22" width="22"> SFU Research Commons
 
 * R
 
